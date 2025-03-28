@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+body{
+  margin:0;
+  padding:0;
+  width:100%;
+  font-size:16px;
+  line-height: 25px;
+  font-family: "Lato", serif;
+  font-weight: 400;
+}
+a{
+  text-decoration: none;
+}
+img, svg {
+  vertical-align: middle;
+  max-width: 100%;
+}
+.navbar{
+  padding: 8px 0;
+  background: #f5023a;
+}
+.navbar .navbar-brand .logo {
+  max-width: 120px;
+}
+.navbar .navbar-brand {
+  padding: 0;
+}
+.navbar .nav-item .nav-link {
+  margin: 0 10px;
+  padding: 3px 5px;
+  font-size: 15px;
+  color: #ffffff;
+}
+.navbar .nav-item .nav-link.active {
+  font-weight: 700;
+}
+.navbar .social-bg {
+  margin: 0 0 0 40px;
+  padding: 0;
+}
+.navbar .social-bg a {
+  margin: 0 5px;
+  padding: 0 4px;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+
+.footer-wrapper{
+	margin:0;
+	padding:0 0 35px 0;
+	background:#fd3b3b;
+	color:#ffffff;
+	font-size:14px;
+	font-weight:400;
+	line-height:26px;
+}
+
+.footer-wrapper .icon-bg{
+	margin:25px 0;
+	padding:0;
+}
+
+.footer-wrapper .icon-bg img{
+	height:24px;
+}
+.icon-email{
+	height: 19px !important;
+	margin: 0 0 4px 0;
+}
+.footer-wrapper h4{
+	margin:0 0 15px 0;
+	font-size:15px;
+	font-weight: 700;
+  letter-spacing: -0.5px;
+}
+.footer-wrapper a{
+	color:#ffffff;
+}
+.footer-wrapper a:hover{
+	color:#282828;
+}
+.footer-wrapper .social-bg{
+	margin:18px 0 0 0;
+	padding:0;
+}
+.footer-wrapper .social-bg a{
+	margin:0 20px 0 0;
+	padding:0 2px;
+	font-size:20px;
+	display:inline-block;
+}
+.footer-wrapper input{
+	margin:10px 0 0 0;
+	background: none;
+	border: 1px solid #feb0b0;
+	border-radius: 6px;
+	height: 40px;
+	padding: 5px 15px;
+	width: 90%;
+	font-weight:700;
+}
+.footer-wrapper .btn-submit{
+	margin: 15px 0 0 0;
+    padding: 4px 22px;
+    color: #fd3b3b;
+    background-color: #fff;
+    border: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: 700;
+    display: inline-block;
+    width: auto;
+    letter-spacing: 0.5px;
+    text-align: center;
+    line-height: unset;
+    height: 37px;
+    &:hover{
+    	color: #fff;
+    	background-color: #000000;
+    }
+}
+.cin-no{
+	font-weight: bold; margin-top: 4px; margin-bottom: -6px;
+}
+.footer-wrapper input::placeholder {
+    color: #fff;
+    opacity: 0.6;
+}
+.footer-copyright-bg {
+  background: #f5023a;
+  color: #ffffff !important;
+  font-size: 14px;
+  margin: 0;
+  padding: 11px 0; 
+}
+.footer-copyright-bg a {
+  float: right;
+  color: #fff;
+}
+.footer-copyright-bg a:hover{
+  color: #282828;
+}
+
+.main-wrapper{
+  padding: 80px 0 0;
+  min-height: 400px;
+}
+
+.products-grid-bg {
+	margin: 0 0 80px 0;
+  padding: 0px 8%;
+}    
+.product-image{
+  margin:0 0 26px 0;
+  padding: 0;
+  text-align: center;
+}
+.product-details{
+  margin:0 0 0 4%;
+  padding: 0;
+  text-align: left;
+}  
+.product-title{
+  margin:0 0 15px 0;
+  width: 100%;
+  display: block;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #424f58;
+}
+.product-price{
+  margin: 0 0 10px 0;
+  font-size: 28px;
+  display: block;
+  color: #424f58;
+  letter-spacing: -1px;
+}
+.product-qty{
+  margin: 0 0 20px 0px;
+  padding: 0px 13px;
+  font-size: 14px;
+  font-weight: 700;
+  display: inline-block;
+  color: #fff;
+  background: #fc494f;
+  border-radius: 5px;
+  font-style: italic;
+  letter-spacing: -0.3px;
+}
+.btn-buy-now{
+  margin: 0px 0 15px 0;
+  padding: 9px 15px;
+  display: block;
+  width:90%;
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+  border: 0;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 3px;
+}
+.btn-buy-now:hover {
+  background-color: #f5023a;
+  color: #ffffff;
+}
+.sold-out{
+  color: #424f58;
+  background: #fff;
+  border:1px solid #424f58;
+  cursor: auto;
+}
+.review-badge-bg{
+  margin: -12px 0 10px 0;
+}
+.review-badge-bg .badge-stars-bg{
+  margin:0;
+  display: inline-block;
+}
+.review-badge-bg .badge-stars-bg svg{
+  margin-right: 5px;
+  fill: #ee9507;
+}
+.review-badge-bg .review-badge-text{
+  color: #424f58;
+  font-weight: 400;
+  font-size: 14px;
+  border-left: 1px solid #d5d5d5;
+  padding: 0 0 0 6px;
+  margin: 0 0 0 6px;
+  font-style: italic;
+}
+.product-image {
+  background: #f1f1f1;
+  width: 100%;
+  min-height: 200px;
+  border: 0;
+}
+
+.btn-add-product{
+  margin: 0 10px !important;
+  padding: 3px 5px !important;
+  font-size: 15px !important;
+}
+
+.wrapper-add-product{
+  margin: 20px 0 50px;
+}
+.wrapper-add-product h4{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.wrapper-add-product button{
+  margin: 20px auto 0;
+  display: table;
+  min-width: 24%;
+  width: auto;
+}
